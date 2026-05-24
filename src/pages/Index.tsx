@@ -2,16 +2,6 @@ import { useState, useEffect } from "react";
 
 const WISHES = [
   {
-    id: 1,
-    emoji: "🐱",
-    label: "Басик",
-    color: "from-orange-100 to-amber-50",
-    border: "border-orange-200",
-    btnColor: "bg-orange-100 hover:bg-orange-200 text-orange-800 border-orange-300",
-    title: "Чтобы басик чаще разговаривал",
-    text: "Пусть твой любимый пушистик каждое утро встречает тебя самым громким «мяу» и никогда не молчит, когда ты приходишь домой. Ты заслуживаешь самых длинных кошачьих монологов! 🐾",
-  },
-  {
     id: 2,
     emoji: "🍈",
     label: "Дыня",
@@ -131,16 +121,6 @@ const WISHES = [
     title: "Побольше милых котов в жизни",
     text: "Пусть твой путь всегда украшают пушистые мордочки, мурлыканье и мягкие лапки. Коты — это маленькие солнышки, и ты заслуживаешь, чтобы их в твоей жизни было как можно больше! 😻",
   },
-  {
-    id: 14,
-    emoji: "🚀",
-    label: "От Юры",
-    color: "from-indigo-100 to-blue-50",
-    border: "border-indigo-200",
-    btnColor: "bg-indigo-100 hover:bg-indigo-200 text-indigo-800 border-indigo-300",
-    title: "От меня лично — с космическим теплом",
-    text: "Как говорят перед важным полётом: «Поехали!» — так и ты: лети вперёд, к мечтам, к счастью, к новым высотам. Желаю тебе здоровья крепкого, улыбок искренних и чтобы каждый день был чуть лучше предыдущего. С Днём Рождения, Наташа! 🌌✨",
-  },
 ];
 
 const APOLOGIES = [
@@ -244,7 +224,7 @@ export default function Index() {
             Наташа
           </h1>
           <div className="caveat text-2xl mb-6" style={{ color: "#f43f5e", opacity: 0.9 }}>
-            Любимая, дорогая, единственная ✨
+            Любимая мама ✨
           </div>
           <div
             className="mx-auto rounded-3xl overflow-hidden shadow-2xl mb-8"
@@ -368,8 +348,11 @@ export default function Index() {
           <p className="caveat text-xl" style={{ color: "#f472b6" }}>
             Живи долго, цвети ярко, люби и будь любимой 💐
           </p>
-          <div className="mt-6 caveat text-sm" style={{ color: "#a8a29e" }}>
-            сделано с любовью ✦
+          <div className="mt-6 caveat text-base" style={{ color: "#a8a29e" }}>
+            сделано для Бордюг Н.В. ✦
+          </div>
+          <div className="mt-1 text-sm" style={{ color: "#c4b8b0", fontFamily: "'Montserrat', sans-serif" }}>
+            самой лучшей, доброй, умной, рассудительной, хозяйственной мамы
           </div>
         </div>
 
