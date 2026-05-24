@@ -125,7 +125,7 @@ const WISHES = [
 
 const APOLOGIES = [
   { emoji: "💬", text: "За грубые слова, сказанные в порыве — прости. Иногда эмоции берут верх, но это не значит, что так можно." },
-  { emoji: "🤐", text: "За бестактные моменты и неловкие фразы — прости. Порой мы не думаем о том, как наши слова звучат для других." },
+  { emoji: "🤐", text: "За бестактные моменты и неловкие фразы — прости. Порой я не думаю о том, как мои слова звучат для других." },
   { emoji: "🌪️", text: "За ссоры и споры, которых можно было избежать — прости. Жизнь слишком короткая, чтобы тратить её на конфликты." },
   { emoji: "🤍", text: "За все те моменты, когда ты заслуживала большего терпения и понимания — прости. Ты этого заслуживаешь." },
 ];
@@ -331,8 +331,8 @@ export default function Index() {
               ))}
               <div className="rounded-2xl border p-5 shadow-sm text-center" style={{ borderColor: "#fce7f3", background: "linear-gradient(135deg, #fff1f2, #fdf2f8)" }}>
                 <div className="cormorant text-xl font-light leading-relaxed" style={{ color: "#e11d48", fontStyle: "italic" }}>
-                  «Мы любим тебя — даже когда это плохо показываем.<br />
-                  И именно поэтому просим прощения.»
+                  «Я люблю тебя — даже когда это плохо показываю.<br />
+                  И именно поэтому прошу прощения.»
                 </div>
               </div>
             </div>
@@ -353,6 +353,12 @@ export default function Index() {
           </div>
           <div className="mt-1 text-sm" style={{ color: "#c4b8b0", fontFamily: "'Montserrat', sans-serif" }}>
             самой лучшей, доброй, умной, рассудительной, хозяйственной мамы
+          </div>
+          <div className="mt-3 caveat text-base" style={{ color: "#a8a29e" }}>
+            твоим сыном, Хлызовым Е.С.
+          </div>
+          <div className="mt-3 cormorant text-lg font-light" style={{ color: "#f472b6", fontStyle: "italic" }}>
+            P.S. Я очень люблю тебя, мам 💗
           </div>
         </div>
 
